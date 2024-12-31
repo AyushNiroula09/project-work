@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihika Gyawali's Profile</title>
+    <link rel="stylesheet" href="mihika.css">
+</head>
+<body>
+    <header>
+        <h1>Angelica Maharjan</h1>
+    </header>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Angelica Maharjan a passionate individual with interests in technology, science, and creative problem-solving. I'm always eager to learn and explore new opportunities.</p>
+    </section>
+    <section class="details">
+        <h2>Details</h2>
+        <ul>
+            <li><strong>Roll Number:</strong> 5</li>
+            <li><strong>Interests:</strong> Technology, Programming, Music</li>
+            <li><strong>Hobbies:</strong> Reading, Traveling, Gaming</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Aayush Niroula. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

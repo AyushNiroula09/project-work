@@ -1,4 +1,5 @@
 body {
+    height: 100%;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: linear-gradient(to bottom, #f8fbfd, #eaf4fc);
@@ -6,11 +7,34 @@ body {
 }
 
 header {
-    background-color: #00509e;
+    background-color: #003366;
     color: white;
     padding: 20px;
     text-align: center;
 }
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #00509e;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
 
 .about, .details {
     padding: 20px;
@@ -70,10 +94,12 @@ strong {
     color: #333;
 }
 
+
 footer {
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 30px;
+    background-color: #003366; 
+    color: white; 
+    text-align: center; 
+    padding: 20px;
+    margin-top: 20px; 
+    font-family: 'Open Sans';
 }
