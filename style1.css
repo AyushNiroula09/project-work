@@ -1,0 +1,181 @@
+body {
+  height: 100%; 
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #D3E8E9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001737;
+  color: white;
+  padding: 10px 20px;
+  position: relative; 
+}
+
+.hamburger-menu {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #001737;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  font-family: 'Open Sans';
+}
+
+.nav-links li {
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+}
+
+.nav-links a:hover {
+  background-color: #377848;
+}
+
+#menu-toggle:checked + .hamburger-menu + .nav-links {
+  display: flex;
+}
+
+header {
+  background-color: #001737;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: "Broadway";
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.about, .details {
+  padding: 20px;
+  margin: 20px auto; 
+  max-width: 800px; 
+  background: white;
+  border-radius: 10px;
+}
+.about-content { 
+  display: flex;
+  align-items: center;
+}
+.photo-container { 
+  width: 35%;
+  margin-right: 20px;
+}
+.profile-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.about-text {
+  width: 60%;
+}
+h2 {
+  color: #00509e;
+  border-bottom: 2px solid #00509e;
+  padding-bottom: 5px;
+}
+p {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #555;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+ul li:last-child {
+  border-bottom: none;
+}
+strong {
+  color: #333;
+}
+.nice{
+  color:black;
+  background:white;
+  font-family:new times roman;
+  font-size:40px;
+  text-align:center;
+  padding:20px;
+  text-align:center;
+  margin:20px auto;
+  max-width:1000px; 
+  border-radius: 10px;
+} 
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+.Angelica {
+  background-image:url("angelica2.jpg")
+}
+.Ayush{
+  background-image:url("aayush.png")
+}
+.Dipika{
+  background-image:url("deepika.jpg")
+}
+.Mihika{
+  background-image:url("mihika.jpg")
+}

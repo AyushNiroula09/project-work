@@ -1,0 +1,245 @@
+body {
+  background-image:url("bird.jpeg");
+  font-family:"New times roman"; 
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+h1{
+  font-family:"broadway";
+}
+header{ 
+  background-color: #001737;  
+  color: white;  padding: 20px; 
+  text-align: center;
+}
+.logo {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001737;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .hamburger-menu {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #001737;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    font-family: 'Open Sans';
+  }
+  
+  .nav-links li {
+    margin: 0; 
+    padding: 0; 
+    border-bottom: none; 
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .nav-links a:hover {
+    background-color: #377848;
+  }
+  
+  #menu-toggle:checked + .hamburger-menu + .nav-links {
+    display: flex;
+  }
+
+.one{
+  background:black;
+  font-family:Bradley Hand ITC;
+  color:white;font-size:20px;
+  text-align:center;text-align:center;
+  padding:30px
+} 
+.box{
+  background:white;
+  font-family:Times New Roman;
+  padding:10px;
+  font-size:25;
+  text-align:center;
+}
+.profiles{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  flex-grow: 1;
+}
+.profile {
+  background: white;
+  border: 1px solid #ddd;  
+  border-radius: 10px;text-align: center;   
+  padding: 15px;   
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     
+  transition: transform 0.3s, box-shadow 0.3s;  
+}
+.profile:hover {
+    transform: translateY(-5px);   
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+.profile img {
+   width: 100px;   
+   height: 100px; 
+   border-radius: 50%;  
+   margin-bottom: 15px;
+  }
+.profile h3 {
+  font-size: 20px;  
+  color: #333;   
+  margin-bottom: 10px;
+}
+.profile a {  
+  display: inline-block;
+  color: white;
+  background-color: #00509e;
+  padding: 10px 20px;border-radius: 5px;
+  text-decoration: none;font-size: 14px;
+  transition: background-color 0.3s;
+}
+.profile a:hover {  
+  background-color: #003366;  
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;  
+  border-radius: 50%;   
+  margin-top: 10px;
+  border: 3px solid #00509e;   
+}
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+.signup {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9fafc;
+  border-top: 1px solid #ddd;
+  border-radius: 15px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.signup h2 {
+  color: #00509e;
+  margin-bottom: 20px;
+}  
+.signup input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;  
+  max-width: 400px;   
+  border: 1px solid #ddd;   
+  border-radius: 5px;   
+}
+.signup button {
+  padding:15px;border: none;
+  background-color: #00509e;  
+  color: white;border-radius: 5px;  
+  cursor: pointer;font-size: 14px;  
+  font-weight: bold;
+}
+.signup button:hover {
+  background-color: #003366;    
+}
+.Mi{
+  background:black;
+  font-family:Bradley Hand ITC;
+  color:white;
+  font-size:20;
+  text-align:center;
+  padding:16px;
+  text-align:center;
+} 
+.suggestions{
+  text-align: center;  
+  padding: 60px;
+  background-color:white;
+  border-top: 1px solid #ddd;
+  border-radius: 15px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.suggestions button {
+  padding:12px;
+  background-color: #00509e;
+  color: white; 
+  border-radius: 5px;
+  cursor: pointer; 
+  font-size: 14px;
+}
+.suggestions button:hover {  
+  background-color: black;
+}
+.suggestions input {
+  padding: 10px;
+  margin: 10px 0;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px  
+}
